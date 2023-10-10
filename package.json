@@ -1,0 +1,22 @@
+{
+  "name": "xstch-log-back",
+  "version": "1.0.0",
+  "description": "backend for xstch log api",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NachoXS15/XSTCH-Log-Back.git"
+  },
+  "author": "NachoXS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NachoXS15/XSTCH-Log-Back/issues"
+  },
+  "homepage": "https://github.com/NachoXS15/XSTCH-Log-Back#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
