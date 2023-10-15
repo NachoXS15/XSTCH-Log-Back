@@ -1,9 +1,9 @@
 const express = require('express');
-const logsRoutes = require('./routes/routes')
+const logsRoutes = require('./src/routes/routes')
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
-const mongodb = require('./databases/databases');
+const mongodb = require('./src/databases/databases');
 require('dotenv').config();
 
 const app = express();
