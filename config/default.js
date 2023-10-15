@@ -1,8 +1,5 @@
 require('dotenv').config();
-
 const {MONGO_USER, MONGO_PASS, MONGO_HOST} = process.env
-
-
 module.exports = {
     databases: {
         mongodb: {
