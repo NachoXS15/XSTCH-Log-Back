@@ -4,6 +4,7 @@
   "description": "backend for xstch log api",
   "main": "app.js",
   "scripts": {
+    "start:dev": "nodemon app.js",
     "test": "npm run dev"
   },
   "repository": {
@@ -17,6 +18,14 @@
   },
   "homepage": "https://github.com/NachoXS15/XSTCH-Log-Back#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "axios": "^1.5.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.6.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
